@@ -1,0 +1,19 @@
+{
+  "name": "tusc-aware-serve2",
+  "version": "1.0.0",
+  "description": "alerts-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": "8.11.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1"
+  }
+}
